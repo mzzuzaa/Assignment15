@@ -18,7 +18,6 @@
   </script>
   
   <style scoped>
-  /* Базовые стили для email input */
   .email-input {
     width: 100%;
     padding: 8px;

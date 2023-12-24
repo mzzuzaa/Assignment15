@@ -34,7 +34,6 @@
     methods: {nextPage() {
       this.$emit('change-page', this.currentPage + 1);
     
-        // Ваш код для изменения текущей страницы
       },
     },
   };

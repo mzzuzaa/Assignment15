@@ -11,7 +11,7 @@
 <script>
 export default {
   props: {
-    links: Array, // Массив объектов с данными о ссылках (to и text)
+    links: Array, 
   },
 };
 </script>

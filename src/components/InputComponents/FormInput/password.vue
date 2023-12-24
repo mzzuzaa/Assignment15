@@ -18,7 +18,6 @@
   </script>
   
   <style scoped>
-  /* Базовые стили для password input */
   .password-input {
     width: 100%;
     padding: 8px;

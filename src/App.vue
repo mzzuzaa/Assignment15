@@ -185,7 +185,7 @@ export default {
   },
   computed: {
     displayedItems() {
-      const startIndex = (this.currentPage - 1) * 5; // Предполагаем, что на странице отображается 5 элементов
+      const startIndex = (this.currentPage - 1) * 5; 
       const endIndex = startIndex + 5;
       return this.items.slice(startIndex, endIndex);
     },

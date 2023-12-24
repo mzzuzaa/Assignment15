@@ -15,19 +15,18 @@
       id: String,
       label: String,
       options: Array,
-      defaultOption: { // Новый пропс для выбора опции по умолчанию
+      defaultOption: {
         type: String,
         default: null,
       },
     },
     data() {
       return {
-        selectedOption: this.defaultOption, // Устанавливаем выбранную опцию по умолчанию
+        selectedOption: this.defaultOption, 
       };
     },
     methods: {
     handleChange() {
-      // Вызываем это событие при изменении выбора
       this.$emit('change', this.selectedOption);
     },
   },

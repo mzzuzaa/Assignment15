@@ -18,7 +18,6 @@
   </script>
   
   <style scoped>
-  /* Базовые стили для number input */
   .number-input {
     width: 100%;
     padding: 8px;

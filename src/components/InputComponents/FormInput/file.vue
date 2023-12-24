@@ -27,15 +27,13 @@
       handleFileInputChange(event) {
         const file = event.target.files[0];
         this.selectedFile = file;
-        // Здесь вы можете обрабатывать файл, если это необходимо
-        // Например, this.$emit('file-selected', file);
+      
       },
     },
   };
   </script>
   
   <style scoped>
-  /* Базовые стили для file input */
   .file-label {
     display: inline-block;
     padding: 8px 12px;
@@ -49,7 +47,6 @@
     background-color: #2980b9;
   }
   
-  /* Стили для отображения имени выбранного файла */
   p {
     margin-top: 8px;
     font-size: 14px;

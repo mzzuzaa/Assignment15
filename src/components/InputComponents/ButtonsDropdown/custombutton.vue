@@ -1,6 +1,6 @@
 <template>
     <button class="custom-button" @click="onClick">
-      <slot></slot> <!-- позволяет вставлять любой контент в кнопку -->
+      <slot></slot> 
     </button>
   </template>
   
@@ -21,7 +21,7 @@
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #4CAF50; /* Зеленый цвет фона */
+    background-color: #4CAF50; 
     color: white;
     text-align: center;
     text-decoration: none;
@@ -35,7 +35,7 @@
   .custom-button:hover {
     background-color: white;
     color: black;
-    border: 1px solid #4CAF50; /* Добавляет зеленую границу при наведении */
+    border: 1px solid #4CAF50; 
   }
   </style>
   

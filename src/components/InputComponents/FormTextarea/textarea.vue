@@ -21,7 +21,6 @@
   </script>
   
   <style scoped>
-  /* Уникальные стили для FormTextarea */
   
   .form-textarea {
     margin-bottom: 20px;
@@ -39,7 +38,7 @@
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 14px;
-    resize: vertical; /* Разрешить вертикальное изменение размера */
+    resize: vertical; 
   }
   </style>
   

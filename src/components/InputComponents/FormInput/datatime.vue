@@ -13,7 +13,6 @@
       <option value="GMT">GMT</option>
       <option value="EST">EST</option>
       <option value="PST">PST</option>
-      <!-- Добавьте другие часовые пояса по вашему усмотрению -->
     </select>
   </div>
 </template>
@@ -23,8 +22,8 @@ export default {
   name: 'DateTimePicker',
   data() {
     return {
-      selectedDateTime: '', // Здесь будет храниться выбранная дата и время
-      selectedTimezone: 'GMT', // Здесь будет храниться выбранный часовой пояс
+      selectedDateTime: '',
+      selectedTimezone: 'GMT',
     };
   },
   methods: {
@@ -39,7 +38,6 @@ export default {
 </script>
 
 <style scoped>
-/* Уникальные стили для date & time picker */
 
 .date-time-picker {
   display: inline-block;

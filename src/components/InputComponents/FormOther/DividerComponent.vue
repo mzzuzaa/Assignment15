@@ -11,7 +11,6 @@
   </script>
   
   <style scoped>
-  /* Стили для Divider компонента */
   .divider {
     display: flex;
     align-items: center;

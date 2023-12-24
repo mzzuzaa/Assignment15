@@ -1,4 +1,3 @@
-<!-- Radiobox.vue -->
 <template>
     <div class="form-radiobox">
       <label class="radiobox-label">{{ label }}</label>

@@ -16,15 +16,13 @@
   
   <style scoped>
   .text-typography {
-    /* Общие стили для компонента Text (Typography) */
     margin-bottom: 16px;
   }
   
-  /* Стили для разных типов текста */
   .title-text {
     font-size: 24px;
     font-weight: bold;
-    color: #333; /* Цвет текста */
+    color: #333; 
     text-transform: uppercase;
   }
   
@@ -36,9 +34,8 @@
   
   .highlight-text {
     font-size: 18px;
-    color: #ff6600; /* Цвет выделенного текста */
+    color: #ff6600; 
   }
   
-  /* Другие стили */
   </style>
   
